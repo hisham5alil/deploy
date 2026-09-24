@@ -11,6 +11,6 @@ st.header('Hello')
 
 if st.button('button'):
     st.write('This is a button')
-    age = st.sidebar()
+    # age = st.sidebar()
 
 # st.sidebar()
