@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 def save_artifacts(best_model, scale, ord_enc, X,
-                   csv_path='bank.csv', out_path='artifacts.pkl'):
+                    csv_path='bank.csv', out_path='artifacts.pkl'):
     """Save the fitted model + every preprocessing object the Streamlit app needs.
 
     best_model : grid.best_estimator_  (the tuned & FITTED SVC, not the empty SVC())
